@@ -1,0 +1,9 @@
+.header {
+    background-color: lightskyblue;
+    height: 35vh;
+}
+
+.header h1 {
+    font-size: 50;
+    font-weight: bold;
+}
