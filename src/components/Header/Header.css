@@ -1,6 +1,7 @@
 .header {
-    background-color: lightskyblue;
-    height: 35vh;
+    background-color: lightskyblue ;
+    height: 20vh;
+    color: white;
 }
 
 .header h1 {

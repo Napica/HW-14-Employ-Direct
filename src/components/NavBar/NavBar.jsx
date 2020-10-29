@@ -1,26 +1,31 @@
 import React from "react";
 import "./NavBar.css";
 
-function Header() {
+function navbar() {
   return (
-    <div className="">
-      <div>
-        <nav class="navbar navbar-light bg-light float-right">
-          <form class="form-inline">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form>
-        </nav>
+    <>
+      <div className="col-sm-12 navBar">
+        <div className="col-sm-3">
+          <nav className="navbar">
+            <form className="form-inline">
+              <input
+                className="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                className="btn btn-primary my-2 my-sm-0"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </nav>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 
-export default Header;
+export default navbar;

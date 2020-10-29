@@ -5,7 +5,9 @@ function Header() {
   return (
     <div className="header">
       <div>
-        <h1 className="text-center">this is where the header will be.</h1>
+        <h1 className="text-center">Employee Directory</h1>
+        <p className= "text-center">Below is a list of employees for the corporation</p>
+        
       </div>
     </div>
   );
