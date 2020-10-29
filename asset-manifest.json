@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/HW-14-Employ-Direct/static/css/main.f65b6112.chunk.css",
+    "main.js": "/HW-14-Employ-Direct/static/js/main.fa479193.chunk.js",
+    "main.js.map": "/HW-14-Employ-Direct/static/js/main.fa479193.chunk.js.map",
+    "runtime-main.js": "/HW-14-Employ-Direct/static/js/runtime-main.2179eaab.js",
+    "runtime-main.js.map": "/HW-14-Employ-Direct/static/js/runtime-main.2179eaab.js.map",
+    "static/js/2.f74f3e27.chunk.js": "/HW-14-Employ-Direct/static/js/2.f74f3e27.chunk.js",
+    "static/js/2.f74f3e27.chunk.js.map": "/HW-14-Employ-Direct/static/js/2.f74f3e27.chunk.js.map",
+    "static/js/3.1409953e.chunk.js": "/HW-14-Employ-Direct/static/js/3.1409953e.chunk.js",
+    "static/js/3.1409953e.chunk.js.map": "/HW-14-Employ-Direct/static/js/3.1409953e.chunk.js.map",
+    "index.html": "/HW-14-Employ-Direct/index.html",
+    "static/css/main.f65b6112.chunk.css.map": "/HW-14-Employ-Direct/static/css/main.f65b6112.chunk.css.map",
+    "static/js/2.f74f3e27.chunk.js.LICENSE.txt": "/HW-14-Employ-Direct/static/js/2.f74f3e27.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2179eaab.js",
+    "static/js/2.f74f3e27.chunk.js",
+    "static/css/main.f65b6112.chunk.css",
+    "static/js/main.fa479193.chunk.js"
+  ]
+}
