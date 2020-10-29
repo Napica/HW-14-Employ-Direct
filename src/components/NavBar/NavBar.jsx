@@ -13,6 +13,8 @@ function navbar() {
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
+                value=""
+                onChange=""
               />
               <button
                 className="btn btn-primary my-2 my-sm-0"
