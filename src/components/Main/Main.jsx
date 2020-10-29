@@ -1,14 +1,13 @@
-import React from "react";
-import "./Main.css";
+import React, { Component } from 'react';
 
-function Main() {
-  return (
-    <div className="">
+class Main extends Component {
+  render() {
+    return (
       <div>
-        <h1 className="text-center">This is where the main will be. It will be changed to a class state section later.</h1>
+          <h3>this is where the table will be</h3>        
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default Main;
