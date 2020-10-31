@@ -1,13 +1,31 @@
-import React, { Component } from 'react';
+import React, {useState, useEffect} from "react";
+import API from "../../utils/API";
 
-class Table extends Component {
-    render() {
-        return (
-            <div>
-                <h1>this is table</h1>
-            </div>
-        );
-    }
-}
+const Table = () => {
+//   const [employeeState, setEmployeeState] = useState({
+//     employee: [],
+//   });
+
+
+
+//   useEffect (() => {
+//     API.getEmployee()
+//       .then((res) => {
+//         console.log(res.data.results);
+//         // setEmployeeState({
+//         //     ...employeeState, employee: res.data.results
+//         // })
+//         // this.setState({employees: res.data.results})
+//       })
+//       .catch((err) => console.log(err));
+//   })
+
+
+  return (
+    <div>
+      <h1>this is table</h1>
+    </div>
+  );
+};
 
 export default Table;
