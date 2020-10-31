@@ -6,23 +6,23 @@ import EmployeeData from "../TableHeader/TableHeader";
 
 const Table = () => {
   const [employeeState, setEmployeeState] = useState({
-      employee: [],
-     filteredResults: [],
-     onChange :()=>{}
+    employee: [],
+    filteredResults: [],
+    onChange: () => {},
   });
-  
-  useEffect( () => {
+
+  useEffect(() => {
     API.employee().then((res) => {
       setEmployeeState({
         employee: res.data.results,
-        filteredResults: res.data.results
+        filteredResults: res.data.results,
       });
     });
   }, []);
 
-//   console.log("++++++++++++++++++++++")
-//   console.log(employeeState);
-//   console.log("++++++++++++++++++++++")
+  //   console.log("++++++++++++++++++++++")
+  //   console.log(employeeState);
+  //   console.log("++++++++++++++++++++++")
 
   return (
     <EmployeeContext.Provider value={employeeState}>
