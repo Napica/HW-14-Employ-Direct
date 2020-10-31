@@ -1,6 +1,6 @@
 import React from "react";
 import Table from "../components/Table/Table";
-import NavBar from "../components/NavBar/NavBar";
+import Header from "../components/Header/Header.jsx";
 
 function Employee() {
   // WHAT IS NEEDED
@@ -12,7 +12,7 @@ function Employee() {
 
   return (
     <div>
-      <NavBar />
+      <Header />
       <Table />
     </div>
   );
