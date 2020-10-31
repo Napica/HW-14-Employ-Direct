@@ -1,30 +1,32 @@
 import React, { useState, useEffect } from "react";
 import API from "../../utils/API";
 import NavBar from "../NavBar/NavBar";
-
+import EmployeeContext from "../../utils/EmployeeContext";
+import EmployeeData from "../TableHeader/TableHeader"
 
 const Table = () => {
-    // const [employeeState, setEmployeeState] = useState({
-    //   employee: [],
-    // });
+//   const [employeeState, setEmployeeState] = useState({
+//     employee: [],
+//   });
 
-    // useEffect (() => {
-    //   API.getEmployee()
-    //     .then((res) => {
-    //       console.log(res.data.results);
-    //       setEmployeeState({
-    //           ...employeeState, employee: res.data.results
-    //       })
-    //       this.setState({employees: res.data.results})
-    //     })
-    //     .catch((err) => console.log(err));
-    // })
+//   useEffect(() => {
+//     API.getEmployee().then((res) => {
+//     //   console.log(res.data.results);
+//       setEmployeeState({
+//         ...employeeState,
+//         // employee: res.data.results,
+//       });
+//       // this.setState({employees: res.data.results})
+//     });
+//   });
 
   return (
-    <div>
-      <NavBar />
-      <h1>this is table</h1>
-    </div>
+    // <EmployeeContext.Provider value={employeeState}>
+      <div>
+        <NavBar />
+        <EmployeeData/>
+      </div>
+    // </EmployeeContext.Provider>
   );
 };
 
