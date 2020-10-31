@@ -1,9 +1,8 @@
-// import React from 'react';
+import React from 'react';
 
-// const EmployeeContext = React.createContext({
+const EmployeeContext = React.createContext({
+    employee: [],
+    onChange: () => undefined
+})
 
-    
-
-// })
-
-// export default EmployeeContext
+export default EmployeeContext
