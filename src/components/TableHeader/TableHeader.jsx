@@ -7,8 +7,25 @@ const TableHeader = () => {
   // console.log(content);
   return (
     <div>
-      <h1>this is the tableheader</h1>
       <table className="table">
+        <td className="text-center">
+          <button>Name</button>
+        </td>
+        <td className="text-center">
+          <button>Image</button>
+        </td>
+        <td className="text-center">
+          <button>Location</button>
+        </td>
+        <td className="text-center">
+          <button>Phone Number</button>
+        </td>
+        <td className="text-center">
+          <button>Cell Phone</button>
+        </td>
+        <td className="text-center">
+          <button>Email Account</button>
+        </td>
         <TableBody />
       </table>
     </div>
