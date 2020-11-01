@@ -14,11 +14,26 @@ const Table = () => {
   useEffect(() => {
     API.employee().then((res) => {
       setEmployeeState({
+        // ...employeeState,
         employee: res.data.results,
         filteredResults: res.data.results,
       });
     });
   }, []);
+
+//   const search = function (searchEmployee) {
+//     const searchedItem = searchEmployee.target.value;
+//     const searchList = employeeState.employee.filter(function (
+//       specificEmployee
+//     ) {
+//       let completeSearch = specificEmployee.name.first.toLowerCase();
+//       return completeSearch.indexOf(searchedItem.toLowercase());
+//     });
+//     setEmployeeState({
+//     //   ...employeeState,
+//       filteredResults: searchList,
+//     });
+//   };
 
   //   console.log("++++++++++++++++++++++")
   //   console.log(employeeState);

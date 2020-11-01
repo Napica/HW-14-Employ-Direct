@@ -7,10 +7,12 @@ const SearchBtn = () => {
   return (
     <div>
       <nav className="navbar navbar-light">
-        <form className="form-inline" onSubmit={ (event) => {
-          event.preventDefault();
-          console.log("Submitting Form")
-        } }>
+        <form
+          className="form-inline"
+          //  onSubmit={ (event) => {
+          //   event.preventDefault();
+          //   console.log("Submitting Form")}}
+        >
           <input
             className="form-control mr-sm-2"
             type="search"
@@ -18,7 +20,10 @@ const SearchBtn = () => {
             aria-label="Search"
             //name="search"
             value=""
-            onChange={ (event) => console.log(event.target.value)}
+            onChange={(event) =>
+              // console.log(event.target.value)
+              search.search(event)
+            }
           />
           <button className="btn btn-primary my-2 my-sm-0" type="submit">
             Search Employee
