@@ -8,7 +8,9 @@ const Table = () => {
   const [employeeState, setEmployeeState] = useState({
     employee: [],
     filteredResults: [],
+    searchedEmployee : "",
     onChange: () => {},
+    search: () => {}
   });
 
   useEffect(() => {
@@ -21,19 +23,21 @@ const Table = () => {
     });
   }, []);
 
-//   const search = function (searchEmployee) {
-//     const searchedItem = searchEmployee.target.value;
-//     const searchList = employeeState.employee.filter(function (
-//       specificEmployee
-//     ) {
-//       let completeSearch = specificEmployee.name.first.toLowerCase();
-//       return completeSearch.indexOf(searchedItem.toLowercase());
-//     });
-//     setEmployeeState({
-//     //   ...employeeState,
-//       filteredResults: searchList,
-//     });
-//   };
+/*  const search = function (searchEmployee) {
+    console.log(searchEmployee)
+    const searchedItem = searchEmployee.target.value;
+    const searchList = employeeState.employee.filter(function (
+      specificEmployee
+    ) {
+      let completeSearch = specificEmployee.name.first.toLowerCase();
+      return completeSearch.indexOf(searchedItem.toLowercase());
+    });
+    setEmployeeState({
+    //   ...employeeState,
+      filteredResults: searchList,
+    });
+  };
+*/
 
   //   console.log("++++++++++++++++++++++")
   //   console.log(employeeState);
